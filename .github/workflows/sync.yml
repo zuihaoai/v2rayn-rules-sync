@@ -1,0 +1,52 @@
+name: Sync v2rayN routing rules
+
+on:
+  schedule:
+    # GitHub cron uses UTC. 00:00 UTC = 08:00 Beijing time.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-v2rayn-rules
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run converter tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Download upstream and convert
+        run: >-
+          python scripts/convert_shadowrocket.py
+          --all
+          --output-dir rules
+          --fail-on-warning
+          --publish-base
+          "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/rules"
+
+      - name: Commit changed rules
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules
+          if git diff --cached --quiet; then
+            echo "No rule changes."
+            exit 0
+          fi
+          git commit -m "chore: sync v2rayN rules"
+          git push

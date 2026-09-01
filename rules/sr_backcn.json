@@ -1,0 +1,20 @@
+[
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:cn"
+    ]
+  },
+  {
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:cn"
+    ]
+  },
+  {
+    "remarks": "FINAL fallback",
+    "outboundTag": "direct",
+    "port": "0-65535",
+    "network": "tcp,udp"
+  }
+]

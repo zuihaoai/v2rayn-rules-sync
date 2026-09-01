@@ -1,0 +1,89 @@
+{
+  "version": "Johnshall-v2rayN",
+  "routingItems": [
+    {
+      "remarks": "sr_ad_only",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_ad_only.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_adb",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_adb.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_backcn",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_backcn.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_backcn_ad",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_backcn_ad.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_cnip",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_cnip.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_cnip_ad",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_cnip_ad.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_direct_banad",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_direct_banad.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_proxy_banad",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_proxy_banad.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_top500_banlist",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_top500_banlist.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_top500_banlist_ad",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_top500_banlist_ad.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_top500_whitelist",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_top500_whitelist.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    },
+    {
+      "remarks": "sr_top500_whitelist_ad",
+      "url": "https://raw.githubusercontent.com/zuihaoai/v2rayn-rules-sync/main/rules/sr_top500_whitelist_ad.json",
+      "ruleSet": "",
+      "domainStrategy": "IPIfNonMatch",
+      "domainStrategy4Singbox": ""
+    }
+  ]
+}
