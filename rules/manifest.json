@@ -4,16 +4,16 @@
   "files": [
     {
       "source": "https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/release/sr_ad_only.conf",
-      "input_rules": 38605,
-      "output_groups": 43,
+      "input_rules": 50084,
+      "output_groups": 45,
       "skipped_rules": 0,
       "expanded_rule_sets": 0,
       "warnings": []
     },
     {
       "source": "https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/release/sr_adb.conf",
-      "input_rules": 39327,
-      "output_groups": 55,
+      "input_rules": 50806,
+      "output_groups": 57,
       "skipped_rules": 0,
       "expanded_rule_sets": 0,
       "warnings": []
@@ -28,8 +28,8 @@
     },
     {
       "source": "https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/release/sr_backcn_ad.conf",
-      "input_rules": 38608,
-      "output_groups": 46,
+      "input_rules": 50087,
+      "output_groups": 48,
       "skipped_rules": 0,
       "expanded_rule_sets": 0,
       "warnings": []
@@ -44,24 +44,24 @@
     },
     {
       "source": "https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/release/sr_cnip_ad.conf",
-      "input_rules": 38997,
-      "output_groups": 52,
+      "input_rules": 50476,
+      "output_groups": 54,
       "skipped_rules": 0,
       "expanded_rule_sets": 0,
       "warnings": []
     },
     {
       "source": "https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/release/sr_direct_banad.conf",
-      "input_rules": 38606,
-      "output_groups": 44,
+      "input_rules": 50085,
+      "output_groups": 46,
       "skipped_rules": 0,
       "expanded_rule_sets": 0,
       "warnings": []
     },
     {
       "source": "https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/release/sr_proxy_banad.conf",
-      "input_rules": 38613,
-      "output_groups": 45,
+      "input_rules": 50092,
+      "output_groups": 47,
       "skipped_rules": 0,
       "expanded_rule_sets": 0,
       "warnings": []
@@ -76,8 +76,8 @@
     },
     {
       "source": "https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/release/sr_top500_banlist_ad.conf",
-      "input_rules": 68857,
-      "output_groups": 58,
+      "input_rules": 80336,
+      "output_groups": 60,
       "skipped_rules": 0,
       "expanded_rule_sets": 1,
       "warnings": []
@@ -92,8 +92,8 @@
     },
     {
       "source": "https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/release/sr_top500_whitelist_ad.conf",
-      "input_rules": 39387,
-      "output_groups": 55,
+      "input_rules": 50866,
+      "output_groups": 57,
       "skipped_rules": 0,
       "expanded_rule_sets": 1,
       "warnings": []
